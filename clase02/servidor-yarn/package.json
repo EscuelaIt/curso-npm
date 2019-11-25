@@ -1,0 +1,30 @@
+{
+  "name": "@escuelait/servidor-npm",
+  "version": "0.0.1",
+  "description": "Servidor Basico construido con NPM",
+  "main": "servidor.js",
+  "scripts": {
+    "start": "node servidor.js",
+    "test": "run-s 'npm start' cypress"
+  },
+  "repository": "git+https://github.com/escuelait/curso-npm.git",
+  "keywords": [
+    "npm",
+    "http-server",
+    "ejemplo"
+  ],
+  "author": "Mateo Tibaquira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/escuelait/curso-npm/issues"
+  },
+  "homepage": "https://github.com/escuelait/curso-npm#readme",
+  "dependencies": {
+    "npm-run-all": "^4.1.5",
+    "server": "^1.0.20"
+  },
+  "devDependencies": {
+    "cypress": "^3.6.1",
+    "handlebars": ">=4.5.3"
+  }
+}
