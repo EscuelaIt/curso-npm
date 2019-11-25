@@ -1,0 +1,24 @@
+{
+  "name": "@escuelait/servidor-npm",
+  "version": "0.0.1",
+  "description": "Servidor Basico construido con NPM",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/escuelait/curso-npm.git"
+  },
+  "keywords": [
+    "npm",
+    "http-server",
+    "ejemplo"
+  ],
+  "author": "Mateo Tibaquira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/escuelait/curso-npm/issues"
+  },
+  "homepage": "https://github.com/escuelait/curso-npm#readme"
+}
