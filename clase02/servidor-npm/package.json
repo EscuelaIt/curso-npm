@@ -4,7 +4,8 @@
   "description": "Servidor Basico construido con NPM",
   "main": "servidor.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node servidor.js",
+    "test": "cypress"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/escuelait/curso-npm/issues"
   },
-  "homepage": "https://github.com/escuelait/curso-npm#readme"
+  "homepage": "https://github.com/escuelait/curso-npm#readme",
+  "dependencies": {
+    "server": "^1.0.20"
+  },
+  "devDependencies": {
+    "cypress": "^3.6.1"
+  },
+  "resolutions": {
+    "minipass": "2.5.1"
+  }
 }
