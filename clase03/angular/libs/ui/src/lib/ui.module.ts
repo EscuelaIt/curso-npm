@@ -4,6 +4,7 @@ import { BodyComponent } from './body/body.component';
 
 @NgModule({
   imports: [CommonModule],
-  declarations: [BodyComponent]
+  declarations: [BodyComponent],
+  exports: [BodyComponent]
 })
-export class UiModule {}
+export class EitUiModule {}
