@@ -4,9 +4,7 @@
   "description": "Servidor Basico construido con NPM",
   "main": "servidor.js",
   "scripts": {
-    "prestart": "",
     "start": "node servidor.js",
-    "poststart": "",
     "test": "run-s 'npm start' cypress"
   },
   "repository": {
