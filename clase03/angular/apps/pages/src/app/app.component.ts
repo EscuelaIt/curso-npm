@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import 'eit-logo/eit-logo';
 
 @Component({
   selector: 'angular-root',

@@ -1,7 +1,8 @@
 {
-  "name": "angular",
-  "version": "0.0.0",
+  "name": "@escuelait/angular",
+  "version": "0.0.1",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "ng": "ng",
     "nx": "nx",
@@ -27,9 +28,7 @@
     "dep-graph": "nx dep-graph",
     "help": "nx help"
   },
-  "private": true,
   "dependencies": {
-    "@nrwl/angular": "8.8.2",
     "@angular/animations": "^8.2.0",
     "@angular/common": "^8.2.0",
     "@angular/compiler": "^8.2.0",
@@ -38,7 +37,9 @@
     "@angular/platform-browser": "^8.2.0",
     "@angular/platform-browser-dynamic": "^8.2.0",
     "@angular/router": "^8.2.0",
+    "@nrwl/angular": "8.8.2",
     "core-js": "^2.5.4",
+    "eit-logo": "0.0.1",
     "rxjs": "~6.4.0",
     "zone.js": "^0.9.1"
   },
