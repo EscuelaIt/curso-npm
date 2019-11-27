@@ -24,10 +24,11 @@
 }
 
 header {
-  background-color: #143055;
+  background-color: gray;
   color: white;
   padding: 5px;
   border-radius: 3px;
+  flex-direction: column;
 }
 
 main {
