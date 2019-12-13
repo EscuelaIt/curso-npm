@@ -1,0 +1,80 @@
+{
+    "name": "npm-clase-01",
+    "version": "0.1.0",
+    "author": {
+        "name": "Barney Rubble",
+        "email": "b@rubble.com",
+        "url": "http://barnyrubble.tumblr.com/"
+    },
+    "license": "UNLICENSED",
+    "homepage": "https://github.com/owner/project#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/escuelait/curso-npm.git"
+    },
+    "bugs": {
+        "url": "https://github.com/escuelait/curso-npm/issues",
+        "email": "project@hostname.com"
+    },
+    "keywords": [
+        "angular",
+        "plugin"
+    ],
+    "browser": "index.html",
+    "main": "server.js",
+    "bin": {
+        "name": "clase01",
+        "version": "1.0.0",
+        "bin": "./bin/clase01"
+    },
+    "engines": {
+        "node": ">=8"
+    },
+    "os": [
+        "darwin",
+        "linux",
+        "win32"
+    ],
+    "cpu": [
+        "x64",
+        "ia32",
+        "!arm",
+        "!mips"
+    ],
+    "dependencies": {
+        "lodash": "~4.x"
+    },
+    "devDependencies": {
+        "es-dev-server": "^1.5.0"
+    },
+    "optionalDependencies": {},
+    "peerDependencies": {
+        "foo": "1.0.0 - 2.9999.9999",
+        "bar": ">=3.2 <3.3",
+        "baz": ">1.0.2 <=2.3.4",
+        "boo": "4.17.15",
+        "qux": "<1.0.0 || >=2.3.1 <2.4.5 || >=2.5.2 <3.0.0",
+        "asd": "http://asdf.com/asdf.tar.gz",
+        "git": "git://github.com/npm/cli.git#v1.0.27",
+        "hub": "matheo/lodash#4.17.15",
+        "til": "~4.17",
+        "elf": "~4.17.15",
+        "two": "4.x",
+        "thr": "4.17.x",
+        "lat": "next",
+        "npm-clase-02": "file:../clase02"
+    },
+    "bundledDependencies": [],
+    "scripts": {
+        "start": "es-dev-server --app-index index.html --preserve-symlinks --node-resolve",
+        "test": "es-dev-server --app-index index.html --preserve-symlinks --node-resolve --open --watch"
+    },
+    "config": {
+        "port": "8080"
+    },
+    "publishConfig": {
+        "access": "public",
+        "tag": "latest",
+        "registry": "https://npm.empresa.com:4356"
+    }
+}
