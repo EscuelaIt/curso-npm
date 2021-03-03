@@ -42,10 +42,10 @@
         "!mips"
     ],
     "dependencies": {
-        "lodash": "~4.x"
+        "lodash": "4.x"
     },
     "devDependencies": {
-        "es-dev-server": "^1.5.0"
+        "es-dev-server": "^2.1.0"
     },
     "optionalDependencies": {},
     "peerDependencies": {
